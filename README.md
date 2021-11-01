@@ -20,3 +20,8 @@ a basic Express server using best practices, including server modularization, us
 
 ## Links
 
+[Main branch deployed on heroku](https://wesam-basic-express-server.herokuapp.com/)
+
+[Pull request from dev branch to main](https://github.com/Wesam-Alqawasmeh/basic-express-server/pull/1)
+
+[GitHub actions](https://github.com/Wesam-Alqawasmeh/basic-express-server/actions)
