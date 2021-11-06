@@ -15,7 +15,7 @@ const validator = require("./middleware/validator");
 
 // middle wares
 app.use(logger);
-app.use(validator);
+
 
 
 // home route
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 // person route
-app.get('/person', (req,res) => {
+app.get('/person', validator, (req,res) => {
     res.status(200).json({
       name: req.query.name  
     });

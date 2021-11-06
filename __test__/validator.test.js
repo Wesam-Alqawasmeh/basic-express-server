@@ -19,7 +19,9 @@ describe("validator middle ware", () => {
   test("check that the validator moves to the next line", async () => {
     let next = jest.fn();
     let req = {
-      query: {},
+      query: {
+        name: "wesam"
+      },
     };
     let res = {};
 

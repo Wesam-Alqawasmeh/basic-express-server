@@ -25,3 +25,9 @@ a basic Express server using best practices, including server modularization, us
 [Pull request from dev branch to main](https://github.com/Wesam-Alqawasmeh/basic-express-server/pull/1)
 
 [GitHub actions](https://github.com/Wesam-Alqawasmeh/basic-express-server/actions)
+
+---
+
+## UML
+
+![uml](./img/lab02UML.jpg)
